@@ -6,20 +6,22 @@ import org.junit.Test;
 public class CheckPrimeNumberTest {
     @Test
     public void when5() {
-        boolean result = CheckPrimeNumber.check(5);
+        int number = 5;
+        boolean result = CheckPrimeNumber.check(number);
         Assert.assertTrue(result);
     }
 
     @Test
     public void when4() {
-        boolean result = CheckPrimeNumber.check(4);
-                Assert.assertFalse(result);
+        int number = 4;
+        boolean result = CheckPrimeNumber.check(number);
+        Assert.assertFalse(result);
     }
 
     @Test
     public void when1() {
-
-        boolean result = CheckPrimeNumber.check(1);
+        int number = 1;
+        boolean result = CheckPrimeNumber.check(number);
         Assert.assertFalse(result);
     }
 }
