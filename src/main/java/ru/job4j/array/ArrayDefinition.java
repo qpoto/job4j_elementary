@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class ArrayDefinition  {
     public static void main(String[] args) {
         short[] ages = new short[10];
-        String[] surnames = new String[100500];
+        String[] surnames = new String[4];
             surnames[0] = "Anastasiya";
             surnames[1] = "Stanislav";
             surnames[2] = "Anna";
