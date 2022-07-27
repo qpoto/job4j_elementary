@@ -10,8 +10,8 @@ public class SwitchArray {
 
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
-        array[0] = array[5];
-        array[5] = temp;
+        array[0] = array[array.length];
+        array[array.length] = temp;
         return array;
     }
 
