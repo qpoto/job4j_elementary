@@ -3,7 +3,7 @@ package ru.job4j.array;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class EqLastTest {
+public class EqLastTest  {
     @Test
     public void whenEq() {
         int[] left = {1, 2, 3};
